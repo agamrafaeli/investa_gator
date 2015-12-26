@@ -1,1 +1,3 @@
 requests[security]
+flask
+Flask-SQLAlchemy
