@@ -7,6 +7,15 @@ The project includes an inhouse written package. In order to install `text_class
 
 ```python full_app/text_classify/setup.py install```
 
+## Python packages
+
+Install all packages listed in "requirements.txt"
+
+## Java 1.8, Stanford NER
+A Stanford NLP tool is required, and it requires Java 1.8.
+After installing Java, to download the NER and place it in the correct destination folder, please run:
+```python download_stanford_ner.py```
+
 
 ## Environment Variables
 
