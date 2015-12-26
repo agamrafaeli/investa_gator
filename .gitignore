@@ -1,3 +1,5 @@
 *.pyc
 *~
 *.ipynb
+*.git-please-ignore
+/home/roeischuster/olgaland/investa_gator/investa_gator/full_app/text_classify/build*
