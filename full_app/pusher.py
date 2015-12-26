@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 import time
 def run(first="",second=False):
     from subprocess import call
@@ -10,6 +12,11 @@ def run(first="",second=False):
 
 if __name__ == '__main__':
     from sys import argv
+
+    certain = raw_input("This will add all files to the repository, usually resulting in a mess. Are you absolutely sure? ([No]/Yes)")
+    if not certain == "Yes":
+       quit()
+    
     msg = argv[1]
     on_heroku = False
     try:
