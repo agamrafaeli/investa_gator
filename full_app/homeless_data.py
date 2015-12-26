@@ -1,3 +1,6 @@
+# This extracts data from a specific PDF format (see data/NYC-Homeless-Shelter-Population-Worksheet-1983-Present1.pdf)
+# Data is saved into CSV form
+
 from subprocess import call
 from sys import argv
 import pandas as pd
