@@ -1,3 +1,9 @@
 requests[security]
 flask
 Flask-SQLAlchemy
+scipy
+metaplotlib
+distance
+nltk
+sklearn
+networkx
