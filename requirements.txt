@@ -16,3 +16,4 @@ distance
 usaddress
 street-address
 geopy
+flask-uploads
