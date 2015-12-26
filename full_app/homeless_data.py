@@ -1,6 +1,7 @@
 from subprocess import call
 from sys import argv
 import pandas as pd
+
 def transform(filename):
     call(["pdftotext","-layout",filename])
     return filename.split(".")[0] + ".txt"
@@ -43,4 +44,4 @@ if __name__ == '__main__':
     contents = text.split("\n")
     relevant = segment(contents)
     df = parse(relevant)
-    df.to_csv("homeless_data.csv")
+    df.to_csv(txt_file.split(".")[0] + ".csv")
