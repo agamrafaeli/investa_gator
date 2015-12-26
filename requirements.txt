@@ -7,3 +7,12 @@ distance
 nltk
 sklearn
 networkx
+pandas
+lxml
+unidecode
+textblob
+scipy
+distance
+usaddress
+street-address
+geopy
