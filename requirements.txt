@@ -2,10 +2,11 @@ requests[security]
 flask
 Flask-SQLAlchemy
 scipy
-metaplotlib
+numpy
+matplotlib
 distance
 nltk
-sklearn
+scikit-learn
 networkx
 pandas
 lxml
